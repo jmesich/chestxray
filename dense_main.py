@@ -19,8 +19,8 @@ warnings.filterwarnings("ignore")
 # Load Data
 ###################################
 
-DATA_DIR = "C:\\Users\\James\\Documents\\ml projects\\Chest_DNN\\data\\data.csv"
-IMAGE_DIR = "C:\\Users\\James\\Documents\\ml projects\\Chest_DNN\\data\\images_01\\images\\"
+DATA_DIR = "Chest_DNN\\data\\data.csv"
+IMAGE_DIR = "Chest_DNN\\data\\images_01\\images\\"
 
 transform = transforms.Compose(
     [transforms.ToTensor(),
